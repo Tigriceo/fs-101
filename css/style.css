@@ -1,0 +1,56 @@
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+button,
+input {
+  outline: none;
+}
+
+.container{
+  /* max-width: 1280px; */
+  width: 1280px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+/* images-test */
+.wrap {
+  display: flex;
+  gap: 50px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.html-img {
+  width: 164px;
+  height: 160px;
+
+  object-position: center;
+  object-fit: contain;
+}
+.css-img {
+  width: 164px;
+  height: 160px;
+  background: url(../img/img.png) no-repeat;
+
+  background-position: 50%;
+  background-size: contain;
+}
+/* ////// */
